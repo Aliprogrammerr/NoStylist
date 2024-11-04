@@ -1,0 +1,44 @@
+name: task
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.11
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+  get: ^4.6.6
+
+dev_dependencies:
+  build_runner:
+  flutter_gen_runner:
+  flutter_gen:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
+    - assets/images/
+
+
+  fonts:
+    - family: dana
+      fonts:
+        - asset: assets/fonts/AmirHafezi.ttf
+
+    - family: anjoman
+      fonts:
+        - asset: assets/fonts/Anjoman-Black.ttf
+
+    - family: amirhafezi
+      fonts:
+        - asset: assets/fonts/AmirHafezi.ttf
+
+  
